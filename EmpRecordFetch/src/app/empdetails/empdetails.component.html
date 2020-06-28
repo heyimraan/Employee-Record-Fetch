@@ -1,0 +1,22 @@
+<p style="text-align: center;">empdetails works!</p>
+<div class="container">
+  <table  style="text-align: center; margin-left: auto; margin-right: auto;" border="3px" class="table-striped table-hover table-trapped">
+    <thead>
+      <tr>
+        <th>EMPLOYEE-ID</th>
+        <th>EMPLOYEE-NAME</th>
+        <th>EMPLOYEE-SALARY</th>
+        <th>EMPLOYEE-AGE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of arraydata">
+      <td>{{item.id}}</td>
+      <td>{{item.employee_name}}</td>
+      <td>{{item.employee_salary}}</td>
+      <td>{{item.employee_age}}</td>
+    </tr>
+  </tbody>
+    
+  </table>
+</div>
